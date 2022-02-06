@@ -2,3 +2,10 @@
 name = "p3d-si"
 version = "0.1.0"
 edition = "2021"
+authors = ["Vinh Truong <vinhphuc.truong@gmail.com>"]
+description = "SI Units"
+license = "MIT"
+repository = "https://github.com/phoekz/p3d-si"
+keywords = ["si", "units", "measurement"]
+categories = ["science"]
+readme = "README.md"
