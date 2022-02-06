@@ -124,6 +124,11 @@ mod tests {
     use super::*;
 
     #[test]
+    fn size_of() {
+        assert_eq!(std::mem::size_of::<f64>(), std::mem::size_of::<Length>());
+    }
+
+    #[test]
     fn arithmetic() {
         let dimensionless = Dimensionless::from(1.0);
         assert_eq!(dimensionless + dimensionless, Dimensionless::from(2.0));
